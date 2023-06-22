@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+:root {
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+  background-color: var(--Light-grayish-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.grid_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 1100px;
+  min-width: 355px;
+  height: auto;
+}
+
+.grid_1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 20px 25px;
+  background-color: var(--Moderate-violet);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: right 10vh top 0;
+  border-radius: 10px;
+  z-index: 10;
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+}
+
+.grid_1 h2 {
+  font-weight: 600;
+  color: var(--White);
+}
+
+.grid_1 h3 {
+  font-weight: 500;
+  color: var(--Light-gray);
+}
+
+.grid_1 .header {
+  color: var(--White);
+  font-weight: 600;
+}
+
+.grid_1 .content {
+  color: var(--Light-gray);
+  font-weight: 500;
+}
+
+.grid_2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  padding: 20px 25px;
+  background-color: var(--Very-dark-grayish-blue);
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+}
+
+.grid_2 h2 {
+  font-weight: 600;
+  color: var(--White);
+}
+
+.grid_2 h3 {
+  font-weight: 500;
+  color: var(--Light-gray);
+}
+
+.grid_2 .header {
+  color: var(--White);
+  font-weight: 600;
+}
+
+.grid_2 .content {
+  color: var(--Light-gray);
+  font-weight: 500;
+}
+
+.grid_3 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: var(--White);
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+}
+
+.grid_3 h2 {
+  font-weight: 600;
+  color: var(--Very-dark-grayish-blue);
+}
+
+.grid_3 h3 {
+  font-weight: 500;
+  color: var(--Light-gray);
+}
+
+.grid_3 .header {
+  color: var(--Very-dark-grayish-blue);
+  font-weight: 600;
+}
+
+.grid_3 .content {
+  color: var(--Very-dark-grayish-blue);
+  font-weight: 500;
+}
+
+.grid_4 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: var(--Very-dark-blackish-blue);
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+}
+
+.grid_4 h2 {
+  font-weight: 600;
+  color: var(--White);
+}
+
+.grid_4 h3 {
+  font-weight: 500;
+  color: var(--Light-gray);
+}
+
+.grid_4 .header {
+  color: var(--White);
+  font-weight: 600;
+}
+
+.grid_4 .content {
+  color: var(--Light-gray);
+  font-weight: 500;
+}
+
+.grid_5 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  background-color: var(--White);
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+}
+
+.grid_5 h2 {
+  font-weight: 600;
+  color: var(--Very-dark-grayish-blue);
+}
+
+.grid_5 h3 {
+  font-weight: 500;
+  color: var(--Light-gray);
+}
+
+.grid_5 .header {
+  color: var(--Very-dark-grayish-blue);
+  font-weight: 600;
+}
+
+.grid_5 .content {
+  color: var(--Very-dark-grayish-blue);
+  font-weight: 500;
+}
+
+.personal_details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.personal_details img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid var(--Light-grayish-blue);
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.header {
+  font-size: 1.15rem;
+}
+
+.content {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media screen and (width <= 876px) {
+  .grid_content {
+    display: flex;
+    flex-direction: column;
+  }
+}
