@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
@@ -25,6 +26,7 @@ body {
   grid-gap: 20px;
   max-width: 1100px;
   min-width: 355px;
+  padding: 20px;
   height: auto;
 }
 
@@ -41,26 +43,25 @@ body {
   border-radius: 10px;
   z-index: 10;
   box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+  color: var(--White);
 }
 
 .grid_1 h2 {
   font-weight: 600;
-  color: var(--White);
 }
 
 .grid_1 h3 {
   font-weight: 500;
-  color: var(--Light-gray);
+  opacity: 0.5;
 }
 
 .grid_1 .header {
-  color: var(--White);
   font-weight: 600;
 }
 
 .grid_1 .content {
-  color: var(--Light-gray);
   font-weight: 500;
+  opacity: 0.7;
 }
 
 .grid_2 {
@@ -72,26 +73,25 @@ body {
   background-color: var(--Very-dark-grayish-blue);
   border-radius: 10px;
   box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+  color: var(--White);
 }
 
 .grid_2 h2 {
   font-weight: 600;
-  color: var(--White);
 }
 
 .grid_2 h3 {
   font-weight: 500;
-  color: var(--Light-gray);
+  opacity: 0.5;
 }
 
 .grid_2 .header {
-  color: var(--White);
   font-weight: 600;
 }
 
 .grid_2 .content {
-  color: var(--Light-gray);
   font-weight: 500;
+  opacity: 0.7;
 }
 
 .grid_3 {
@@ -103,26 +103,25 @@ body {
   padding: 20px 25px;
   border-radius: 10px;
   box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+  color: var(--Very-dark-grayish-blue);
 }
 
 .grid_3 h2 {
   font-weight: 600;
-  color: var(--Very-dark-grayish-blue);
 }
 
 .grid_3 h3 {
   font-weight: 500;
-  color: var(--Light-gray);
+  opacity: 0.5;
 }
 
 .grid_3 .header {
-  color: var(--Very-dark-grayish-blue);
   font-weight: 600;
 }
 
 .grid_3 .content {
-  color: var(--Very-dark-grayish-blue);
   font-weight: 500;
+  opacity: 0.7;
 }
 
 .grid_4 {
@@ -134,26 +133,26 @@ body {
   padding: 20px 25px;
   border-radius: 10px;
   box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+  color: var(--White);
 }
 
 .grid_4 h2 {
   font-weight: 600;
-  color: var(--White);
 }
 
 .grid_4 h3 {
   font-weight: 500;
-  color: var(--Light-gray);
+  color: var(--White);
+  opacity: 0.5;
 }
 
 .grid_4 .header {
-  color: var(--White);
   font-weight: 600;
 }
 
 .grid_4 .content {
-  color: var(--Light-gray);
   font-weight: 500;
+  opacity: 0.7;
 }
 
 .grid_5 {
@@ -165,26 +164,25 @@ body {
   padding: 20px 25px;
   border-radius: 10px;
   box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.2);
+  color: var(--Very-dark-grayish-blue);
 }
 
 .grid_5 h2 {
   font-weight: 600;
-  color: var(--Very-dark-grayish-blue);
 }
 
 .grid_5 h3 {
   font-weight: 500;
-  color: var(--Light-gray);
+  opacity: 0.5;
 }
 
 .grid_5 .header {
-  color: var(--Very-dark-grayish-blue);
   font-weight: 600;
 }
 
 .grid_5 .content {
-  color: var(--Very-dark-grayish-blue);
   font-weight: 500;
+  opacity: 0.7;
 }
 
 .personal_details {
@@ -226,5 +224,6 @@ h3 {
   .grid_content {
     display: flex;
     flex-direction: column;
+    padding: 20px;
   }
 }
